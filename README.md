@@ -23,7 +23,7 @@ The goal of this project to automate the process of applying loan. It uses Selen
 4. ExtentReports: After running the tests, a pretty report is generated to see the results in a structured format. These reports can be found at location test-output/SparkReport/index.html
 
 ##Before Running the project 
-1. Please download ***chromedriver.exe*** and replace the path to this driver in setUp() method in /src/test/java/stepDefinitionsConfigSteps.java
+1. Please download ***chromedriver.exe*** and replace the path to this driver in setUp() method in /src/test/java/stepDefinitions/ConfigSteps.java
 2. Make sure to have unique email id in the feature file.
 
 ##How to run Project
