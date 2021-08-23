@@ -1,23 +1,5 @@
-#Author: your.email@your.domain.com
-#Keywords Summary :
-#Feature: List of scenarios.
-#Scenario: Business rule through list of steps with arguments.
-#Given: Some precondition step
-#When: Some key actions
-#Then: To observe outcomes or validation
-#And,But: To enumerate more Given,When,Then steps
-#Scenario Outline: List of steps for data-driven as an Examples and <placeholder>
-#Examples: Container for s table
-#Background: List of steps run before each of the scenarios
-#""" (Doc Strings)
-#| (Data Tables)
-#@ (Tags/Labels):To group Scenarios
-#<> (placeholder)
-#""
-## (Comments)
-#Sample Feature Definition Template
 @tag
-Feature: Pre-qualifyfor a loan and create account
+Feature: Pre-qualify for a loan and create account
 
   @tag2
   Scenario Outline: Check if a user pre-qualifies for a loan and create an account
@@ -60,7 +42,5 @@ Feature: Pre-qualifyfor a loan and create account
 
     Examples: 
       | firstname            | lastname            | email                                  | phone      | businessname  | hearAbousUs | password |
-      | Test User First Name | Test User Last Name | test.automation822@smartbizloans.com  | 1234567234 | Test Business | Radio       | Test123! |
-      | Test User First Name | Test User Last Name | test.automation823@smartbizloans.com  | 1234567234 | Test Business | Radio       | Test123! |
-      ##| abc                  | xyz                 | abcxyz54@gmail.com                 | 1234567891 | test          | Radio       | Test123! |
-      ##| abc                  | xyz                 | abcxyz55@gmail.com                 | 1234567891 | test          | Radio       | Test123! |
+      | Test User First Name | Test User Last Name | test.automation822@smartbizloans.com   | 1234567234 | Test Business | Radio       | Test123! |
+      | Test User First Name | Test User Last Name | test.automation823@smartbizloans.com   | 1234567234 | Test Business | Radio       | Test123! |
