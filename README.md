@@ -3,7 +3,7 @@ The goal of this project to automate the process of applying loan. It uses Selen
 
 ## Pre-requisites
 
-1. Java8
+1. JDK 1.8
 2. Maven
 3. Set JAVA_HOME and MAVEN_HOME in your path variable
 4. Cucumber (BDD)
